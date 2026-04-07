@@ -324,3 +324,75 @@ body {
   background: var(--primary);
   color: white;
 }
+
+
+@media (max-width: 768px) {
+  /* General spacing */
+  .section {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero {
+    padding: 4rem 1.5rem 2rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    margin-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* NAVIGATION */
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav a {
+    margin-left: 0;
+  }
+
+  /* HERO IMAGE FIX */
+  .hero-image {
+    position: relative;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+    margin-top: 2rem;
+  }
+
+  /* MARKET IMAGES STACK */
+  .market-figures {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* GRID TWEAKS */
+  .stats,
+  .cards,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* TECH LIST STACK */
+  .tech-list {
+    flex-direction: column;
+  }
+}
