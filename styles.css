@@ -330,6 +330,13 @@ body {
   color: white;
 }
 
+@media (min-width: 1200px) {
+  .hero-image {
+    width: 50vw;
+    max-width: 1200px;
+    transform: scale(1.2);
+  }
+}
 
 @media (max-width: 768px) {
   /* General spacing */
@@ -387,12 +394,6 @@ body {
   .market-figures {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-
-  .hero-image {
-    width: 50vw;
-    max-width: 1200px;
-    transform: scale(1.2);
   }
 
   /* GRID TWEAKS */
