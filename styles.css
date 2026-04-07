@@ -77,8 +77,8 @@ body {
   position: absolute;
   right: -5rem;
   bottom: 0;
-  width: 100%;
-  max-width: 600px; /* twice previous big size */
+  width: 60vw;        /* scales with screen */
+  max-width: 900px;  
   z-index: 1;
   transition: transform 1s ease;
   transform: scale(1.2); /* doubles size */
