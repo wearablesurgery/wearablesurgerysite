@@ -389,6 +389,12 @@ body {
     gap: 2rem;
   }
 
+  .hero-image {
+    width: 50vw;
+    max-width: 1200px;
+    transform: scale(1.2);
+  }
+
   /* GRID TWEAKS */
   .stats,
   .cards,
