@@ -369,7 +369,6 @@ body {
     align-items: flex-start;
     padding: 1.5rem;
     position: relative;
-    background: linear-gradient(135deg, var(--primary), var(--primary-light));
   }
 
   .nav-links {
