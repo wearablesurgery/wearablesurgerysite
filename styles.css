@@ -403,8 +403,15 @@ body {
     grid-template-columns: 1fr;
   }
 
-  /* TECH LIST STACK */
-  .tech-list {
+    .tech-list {
     flex-direction: column;
+    align-items: flex-start; /* key fix */
   }
+
+  .tech-list li {
+    flex: none;              /* stop stretching */
+    width: auto;             /* shrink to fit text */
+    max-width: 100%;         /* prevent overflow */
+  }
+  
 }
